@@ -1,17 +1,309 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Welcome</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/carousal.css">
+
 </head>
 
 <body>
+
+    <a id="floating_button" href="#" onclick="toggleTheme()"><img src="images/icons/up_arrow.svg"></a>
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+
+            <div id="block_1">
+
+                <p class="title_header">Figma</p>
+                <p class="tagline">Plugin Developers</p>
+
+                <div class="black_button"><a href="https://www.figma.com/" target="_blank">Try Figma</a></div>
+            </div>
+        </div>
+        <div class="flex-item-right">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="figma_lottie" src="https://assets9.lottiefiles.com/packages/lf20_xx5oa49z.json"
+                background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+
+            <div class="block_1">
+
+                <p class="sub_title">Who are we?</p>
+                <p class="content">A group of designers and developers!</p>
+
+                <!-- <div class="black_button"><a href="https://www.figma.com/">Try Figma</a></div> -->
+            </div>
+        </div>
+        <div class="flex-item-right">
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="figma_lottie" src="https://assets5.lottiefiles.com/private_files/lf30_wwq2op12.json"
+                background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+
+
+    <div class="flex-container">
+
+        <div class="flex-item-left">
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="figma_lottie" src="https://assets3.lottiefiles.com/packages/lf20_aBisuB.json"
+                background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+        </div>
+
+        <div class="flex-item-right">
+            <div class="block_1">
+
+                <p class="sub_title">Need help?</p>
+                <p class="content">We’ve got tutorials!</p>
+
+                <div class="black_button"><a href="https://www.figma.com/">Watch on YouTube</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Carousal begins here -->
+
+    <div class="flex-container">
+
+        <div class="flex-item-left">
+
+            <div class="block_1">
+
+                <p class="sub_title">Our Plugins</p>
+                <p class="content">We'd appreciate if you install!</p>
+
+                <div class="black_button"><a href="https://www.figma.com/">Install Plugins</a></div>
+            </div>
+        </div>
+
+        <div class="flex-item-right">
+
+            <div class='wrapper'>
+                <div class='carousel'>
+
+                    <!-- 1 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/youtubeview.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>YouTubeView</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">Watch
+                                YouTube while you design!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/sketch.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>Sketch</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/figmatoxml.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>FigmaToXML</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/youtubeview.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>YouTubeView</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                YouTube while you design!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/sketch.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>Sketch</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/figmatoxml.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>FigmaToXML</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/youtubeview.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>YouTubeView</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">Watch
+                                YouTube while you design!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/sketch.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>Sketch</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 9 -->
+                    <div class='carousel__item'>
+                        <div class='carousel__item-head'>
+                            <img src="/images/plugin_icons/figmatoxml.svg" width="50px" height="50px">
+                        </div>
+                        <div class='carousel__item-body'>
+                            <p class='title'>FigmaToXML</p>
+                            <a class="link"
+                                href="https://www.figma.com/community/plugin/1030677329642768173/YouTubeView">
+                                Work in progress!
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Carousal ends here -->
+
+
+    <!-- Footer begins here -->
+
+    <div class="footer">
+        <div class="flex-container">
+
+            <div class="flex-item-left">
+                <div class="block_1">
+
+                    <br>
+                    <p class="content">Contact Us</p>
+
+                    <div class="icons_block">
+
+                        <a class="icons" href="#"><img src="images/icons/facebook.svg" width="32px" height="32px"></a>
+                        <a class="icons" href="#"><img src="images/icons/github.svg" width="32px" height="32px"></a>
+                        <a class="icons" href="#"><img src="images/icons/instagram.svg" width="32px" height="32px"></a>
+
+                    </div>
+
+                    <div class="icons_block">
+
+                        <a class="icons" href="#"><img src="images/icons/google.svg" width="32px" height="32px"></a>
+                        <a class="icons" href="#"><img src="images/icons/linkedin.svg" width="32px" height="32px"></a>
+                        <a class="icons" href="#"><img src="images/icons/youtube.svg" width="32px" height="32px"></a>
+
+                    </div>
+
+
+                    <p class="content">Subscribe</p>
+                    <br>
+
+                    <div class="subscribe">
+                        <input type="email" name="email" placeholder="me@gmail.com">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="flex-item-right">
+                <div class="block_1">
+
+                    <p class="sub_title">New ideas?</p>
+                    <p class="content">Mail us your thoughts!</p>
+
+                    <br>
+                    <hr>
+                    <br>
+
+                    <center>
+                        <p class="small_text"><a href="credits.html">Credits</a></p>
+                    </center>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer end here -->
+
+    <script>
+        function toggleTheme() {
+            var element = document.body;
+            // var button = document.getElementsByClassName('dark_button');
+
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 
 </body>
 
