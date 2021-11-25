@@ -1,7 +1,8 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="100" height="100" rx="50" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M50.2889 77.8279C44.8783 77.8279 44.3175 73.1218 44.3759 71.2493H56.2051C56.1091 73.0687 55.6995 77.8279 50.2889 77.8279ZM44.3759 65.6506C44.1286 62.4473 37.2471 59.1947 37.2471 51.1011C37.2471 42.4684 43.5174 37.8909 50.3512 37.7178C57.187 37.8917 63.4567 42.4684 63.4567 51.1011C63.4572 59.1947 56.526 62.4125 56.2051 65.6506H44.3759Z" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M50.0234 22.1602V30.3484" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M69.2428 27.0732L63.5967 32.8632" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30.8594 27.0732L36.5055 32.8632" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" rx="50" fill="transparent"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M50.2889 77.8279C44.8783 77.8279 44.3175 73.1218 44.3759 71.2493H56.2051C56.1091 73.0687 55.6995 77.8279 50.2889 77.8279ZM44.3759 65.6506C44.1286 62.4473 37.2471 59.1947 37.2471 51.1011C37.2471 42.4684 43.5174 37.8909 50.3512 37.7178C57.187 37.8917 63.4567 42.4684 63.4567 51.1011C63.4572 59.1947 56.526 62.4125 56.2051 65.6506H44.3759Z" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50.0234 22.1602V30.3484" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M69.2428 27.0732L63.5967 32.8632" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30.8594 27.0732L36.5055 32.8632" stroke="#1F1F1F" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
