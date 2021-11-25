@@ -3,11 +3,17 @@
 }
 
 .wrapper {
-    background: white;
+    background: transparent;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.carousal-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #1F1F1F;
 }
 
 .carousel {
@@ -26,7 +32,7 @@
     width: 100%;
     padding: 0 12px;
     opacity: 0;
-    filter: drop-shadow(0 2px 2px rgb(204, 204, 204));
+    filter: drop-shadow(0 2px 2px rgba(204, 204, 204, 0.5));
     will-change: transform, opacity;
     -webkit-animation: carousel-animate-vertical 27s linear infinite;
     animation: carousel-animate-vertical 27s linear infinite;
