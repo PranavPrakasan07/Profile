@@ -17,17 +17,18 @@
 
 </head>
 
-<body>
+<body onload="setValue()">
 
-    <a id="floating_button" href="#" onclick="toggleTheme()"><img src="images/icons/up_arrow.svg"></a>
+    <a id="floating_button" href="#"><img src="images/icons/up_arrow.svg"></a>
+    <a id="bulb_button" href="#" onclick="toggleTheme()"><img src="images/icons/bulb_light.svg" width="75px"></a>
 
     <div class="flex-container">
         <div class="flex-item-left">
 
             <div id="block_1">
 
-                <p class="title_header">Figma</p>
-                <p class="tagline">Plugin Developers</p>
+                <p class="title_header">Pranav Prakasan</p>
+                <p class="tagline">Android Developer | UI/UX Designer</p>
 
                 <div class="black_button"><a href="https://www.figma.com/" target="_blank">Try Figma</a></div>
             </div>
@@ -297,11 +298,26 @@
     <!-- Footer end here -->
 
     <script>
+
+        function setValue() {
+            localStorage.setItem("key", 0);
+        }
+
         function toggleTheme() {
             var element = document.body;
             // var button = document.getElementsByClassName('dark_button');
 
             element.classList.toggle("dark-mode");
+
+
+            if (localStorage.getItem("key") % 2 == 0) {
+                document.getElementById('bulb_button').innerHTML = '<img src="images/icons/bulb_dark.svg" width="50px">';
+            }else{
+                document.getElementById('bulb_button').innerHTML = '<img src="images/icons/bulb_light.svg" width="50px">';
+            }     
+
+            localStorage.setItem("key", parseInt(localStorage.getItem("key")) + 1);
+
         }
     </script>
 

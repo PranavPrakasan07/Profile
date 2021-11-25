@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -66,14 +67,14 @@ body {
 
 .title_header {
     font-family: 'Poppins', sans-serif;
-    font-size: 82px;
+    font-size: 64px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
 
 .tagline {
     font-family: 'Poppins', sans-serif;
-    font-size: 42px;
+    font-size: 36px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
@@ -113,12 +114,12 @@ a {
     color: white;
 }
 
-p{
-    font-family: 'Poppins', sans-serif ;
+p {
+    font-family: 'Poppins', sans-serif;
     size: 20px;
 }
 
-.link{
+.link {
     color: #1F1F1F;
     font-family: 'Poppins', sans-serif;
     size: 16px;
@@ -163,6 +164,13 @@ input {
     position: fixed;
     margin: 32px;
     bottom: 0;
+    right: 0;
+}
+
+#bulb_button {
+    position: fixed;
+    margin: 32px;
+    top: 0;
     right: 0;
 }
 
